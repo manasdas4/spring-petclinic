@@ -17,7 +17,7 @@ pipeline {
         sh '''./mvnw sonar:sonar \\
   -Dsonar.projectKey=Petclinic \\
   -Dsonar.projectName=\'Petclinic\' \\
-  -Dsonar.host.url=http://52.66.234.110:9000 \\
+  -Dsonar.host.url=http://172.31.22.239:9000 \\
   -Dsonar.token=sqp_40ee8ae1e172b59b6dbb21cdc4cbde90f7690556'''
       }
     }
